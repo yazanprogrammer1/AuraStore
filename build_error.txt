@@ -1,0 +1,94 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:kspDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/AuthApi.kt:6:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/AuthApi.kt:7:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/AuthApi.kt:8:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/AuthApi.kt:12:6 Unresolved reference 'POST'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/AuthApi.kt:14:10 Unresolved reference 'Body'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/AuthApi.kt:17:6 Unresolved reference 'POST'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/AuthApi.kt:19:10 Unresolved reference 'Body'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/AuthApi.kt:22:6 Unresolved reference 'GET'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:5:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:6:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:7:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:8:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:12:6 Unresolved reference 'POST'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:14:10 Unresolved reference 'Body'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:17:6 Unresolved reference 'GET'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:20:6 Unresolved reference 'GET'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/OrderApi.kt:22:10 Unresolved reference 'Path'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/ProductApi.kt:4:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/ProductApi.kt:5:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/ProductApi.kt:6:8 Unresolved reference 'retrofit2'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/ProductApi.kt:10:6 Unresolved reference 'GET'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/ProductApi.kt:13:6 Unresolved reference 'GET'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/ProductApi.kt:15:10 Unresolved reference 'Path'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/ProductApi.kt:18:6 Unresolved reference 'GET'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/remote/ProductApi.kt:20:10 Unresolved reference 'Query'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirebaseAuthRepository.kt:11:1 Class 'FirebaseAuthRepository' is not abstract and does not implement abstract member 'logout'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirebaseAuthRepository.kt:37:83 Return type of 'register' is not a subtype of the return type of the overridden member 'suspend fun register(email: String, password: String, name: String): Resource<Unit>' defined in 'com/example/aurastore/domain/repository/AuthRepository'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirebaseAuthRepository.kt:69:5 'logout' overrides nothing.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirebaseAuthRepository.kt:69:5 Conflicting overloads:
+suspend fun logout(): Unit
+fun logout(): Unit
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:5:43 Unresolved reference 'OrderRequest'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:11:1 Class 'FirestoreOrderRepository' is not abstract and does not implement abstract member 'createOrder'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:15:5 'createOrder' overrides nothing.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:15:52 Unresolved reference 'OrderRequest'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:22:39 Unresolved reference 'userId'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:23:38 Unresolved reference 'items'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:25:37 Unresolved reference 'it'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:26:50 Unresolved reference 'it'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreOrderRepository.kt:28:36 Unresolved reference 'it'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/data/repository/FirestoreProductRepository.kt:10:1 Class 'FirestoreProductRepository' is not abstract and does not implement abstract member 'searchProducts'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 16s
+30 actionable tasks: 1 executed, 29 up-to-date

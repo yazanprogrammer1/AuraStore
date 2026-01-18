@@ -1,0 +1,64 @@
+Starting a Gradle Daemon, 1 incompatible and 5 stopped Daemons could not be reused, use --status for details
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/navigation/Routes.kt:3:16 Unresolved reference 'serialization'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/navigation/Routes.kt:5:2 Cannot access 'typealias Serializable = Serializable': it is internal in file.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/navigation/Routes.kt:5:2 Illegal annotation class 'Serializable'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/navigation/Routes.kt:8:2 Cannot access 'typealias Serializable = Serializable': it is internal in file.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/navigation/Routes.kt:8:2 Illegal annotation class 'Serializable'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/navigation/Routes.kt:11:2 Cannot access 'typealias Serializable = Serializable': it is internal in file.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/navigation/Routes.kt:11:2 Illegal annotation class 'Serializable'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/screens/LoginScreen.kt:11:47 Unresolved reference 'Visibility'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/screens/LoginScreen.kt:12:47 Unresolved reference 'VisibilityOff'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/screens/LoginScreen.kt:182:74 Unresolved reference 'Visibility'.
+e: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/app/src/main/java/com/example/aurastore/ui/screens/LoginScreen.kt:182:104 Unresolved reference 'VisibilityOff'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2m 1s
+29 actionable tasks: 6 executed, 23 up-to-date

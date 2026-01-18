@@ -1,0 +1,94 @@
+Starting a Gradle Daemon, 2 busy and 6 stopped Daemons could not be reused, use --status for details
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:kspDebugKotlin UP-TO-DATE
+> Task :app:compileDebugKotlin
+> Task :app:mergeExtDexDebug
+> Task :app:compileDebugJavaWithJavac
+C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\AuraApp_GeneratedInjector.java:16: error: cannot find symbol
+  void injectAuraApp(AuraApp auraApp);
+                     ^
+  symbol:   class AuraApp
+  location: interface AuraApp_GeneratedInjector
+C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\MainActivity_GeneratedInjector.java:16: error: cannot find symbol
+  void injectMainActivity(MainActivity mainActivity);
+                          ^
+  symbol:   class MainActivity
+  location: interface MainActivity_GeneratedInjector
+C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\AuraApp_GeneratedInjector.java:10: error: cannot find symbol
+    topLevelClass = AuraApp.class
+                    ^
+  symbol: class AuraApp
+C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\MainActivity_GeneratedInjector.java:10: error: cannot find symbol
+    topLevelClass = MainActivity.class
+                    ^
+  symbol: class MainActivity
+C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\Hilt_MainActivity.java:99: error: cannot find symbol
+      ((MainActivity_GeneratedInjector) this.generatedComponent()).injectMainActivity(UnsafeCasts.<MainActivity>unsafeCast(this));
+                                                                                                   ^
+  symbol:   class MainActivity
+  location: class Hilt_MainActivity
+5 errors
+
+> Task :app:compileDebugJavaWithJavac FAILED
+[Incubating] Problems report is available at: file:///C:/Users/yazan/.gemini/antigravity/scratch/AuraStore/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\AuraApp_GeneratedInjector.java:10: error: cannot find symbol
+      topLevelClass = AuraApp.class
+                      ^
+    symbol: class AuraApp
+  C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\MainActivity_GeneratedInjector.java:10: error: cannot find symbol
+      topLevelClass = MainActivity.class
+                      ^
+    symbol: class MainActivity
+  C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\AuraApp_GeneratedInjector.java:16: error: cannot find symbol
+    void injectAuraApp(AuraApp auraApp);
+                       ^
+    symbol:   class AuraApp
+    location: interface AuraApp_GeneratedInjector
+  C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\MainActivity_GeneratedInjector.java:16: error: cannot find symbol
+    void injectMainActivity(MainActivity mainActivity);
+                            ^
+    symbol:   class MainActivity
+    location: interface MainActivity_GeneratedInjector
+  C:\Users\yazan\.gemini\antigravity\scratch\AuraStore\app\build\generated\ksp\debug\java\com\example\aurastore\Hilt_MainActivity.java:99: error: cannot find symbol
+        ((MainActivity_GeneratedInjector) this.generatedComponent()).injectMainActivity(UnsafeCasts.<MainActivity>unsafeCast(this));
+                                                                                                     ^
+    symbol:   class MainActivity
+    location: class Hilt_MainActivity
+  5 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 17m 18s
+23 actionable tasks: 6 executed, 17 up-to-date
