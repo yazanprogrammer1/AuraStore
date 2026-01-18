@@ -16,6 +16,25 @@ Built with a **Clean Architecture** approach and the latest **Modern Android Sta
 
 ---
 
+---
+
+## 📸 Screenshots
+
+<table align="center">
+  <tr>
+    <td><img src="screenshots/Screenshot_1768752462.png" width="250"/></td>
+    <td><img src="screenshots/Screenshot_1768752473.png" width="250"/></td>
+    <td><img src="screenshots/Screenshot_1768752478.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/Screenshot_1768752491.png" width="250"/></td>
+    <td><img src="screenshots/Screenshot_1768752511.png" width="250"/></td>
+    <td><img src="screenshots/Screenshot_1768752516.png" width="250"/></td>
+  </tr>
+</table>
+
+---
+
 ## 🚀 World-Class Features
 
 ### 🎨 **Immersive Design (Glassmorphism)**
@@ -79,7 +98,7 @@ com.example.aurastore
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/aura-store.git
+    git clone https://github.com/yazanprogrammer1/aura-store.git
     ```
 2.  **Open in Android Studio**: Ensure you are using the latest Koala or Ladybug feature drop.
 3.  **Sync Gradle**: Download all modern dependencies.
